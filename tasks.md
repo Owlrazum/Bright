@@ -11,9 +11,6 @@
 
 ### Вручную
 - Godot https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_win64.exe.zip
-- Visual Studio C/C++ compiler https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
-(Нужна проставить четыре галочки, 3 как на скрине и одна на "Основные компоненты C++")
-![visual studio](https://github.com/user-attachments/assets/9a2e9e4e-2a87-4b8a-9eea-af864fd435fa)
 
 ### Через winget
 ```
