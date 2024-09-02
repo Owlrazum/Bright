@@ -10,8 +10,8 @@
 # Что устанавливать
 
 ### Вручную
-- Godot
-- Visual Studio C/C++ compiler
+- Godot https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_win64.exe.zip
+- Visual Studio C/C++ compiler https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
 ### Через winget
 ```
 winget install --id GitHub.cli
