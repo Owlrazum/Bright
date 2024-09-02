@@ -16,6 +16,6 @@
 ```
 winget install --id GitHub.cli
 winget install --id Git.Git -e --source winget
-winget install -e --id Python.Python.3.12 --scope machine
+winget install -e --id Python.Python.3.12
 ```
 
