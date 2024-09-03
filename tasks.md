@@ -26,3 +26,6 @@ Get-ChildItem @(
 >>     "C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package*.mum"
 >> ) | ForEach-Object { dism.exe /online /norestart /add-package:"$_" }
 ```
+
+Ctrl + R -> Gpedit.msc
+https://winitpro.ru/index.php/2015/10/02/redaktor-gruppovyx-politik-dlya-windows-10-home-edition/
