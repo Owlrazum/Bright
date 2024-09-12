@@ -38,7 +38,7 @@ Redirect prohibited domains to localhost:
 Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
 127.0.0.1 pornhub.com
 127.0.0.1 roblox.com
-127.0.0.1 yandex.ru/games
+127.0.0.1 yandex.ru
 127.0.0.1 vseigru.net
 127.0.0.1 igroutka.ru
 127.0.0.1 bluestacks.com
