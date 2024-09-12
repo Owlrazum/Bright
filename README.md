@@ -11,10 +11,46 @@ https://wiki.amperka.ru/_media/articles:driver-ch340:ch340ser-windows.zip
 Microsoft Store удобнее \
 [https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe](https://www.microsoft.com/store/productId/9NCVDN91XZQP?ocid=pdpshare)
 
+https://www.mozilla.org/ru/firefox/download/thanks/
+
 ## Необязательно
 
 ### gh, git
 ```
 winget install --id GitHub.cli
 winget install --id Git.Git -e --source winget
+```
+# Настроить
+
+### Закрепить вкладки в Firefox:
+
+1. https://typerun.top/#rus_adv
+2. https://kahoot.it/
+3. https://www.google.com/search?client=firefox-b-d&q=snake+game
+4. https://docs.godotengine.org/en/stable/getting_started/introduction/introduction_to_godot.html#
+5. https://www.onlinegdb.com/online_c++_compiler
+6. https://codeforces.com/problemset?tags=-800
+
+### Запретить сайты
+
+Redirect prohibited domains to localhost:
+```
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
+127.0.0.1 pornhub.com
+127.0.0.1 roblox.com
+127.0.0.1 yandex.ru/games
+127.0.0.1 vseigru.net
+127.0.0.1 igroutka.ru
+127.0.0.1 bluestacks.com
+"
+```
+Flush DNS:
+```
+ipconfig /flushdns
+```
+Clear firefox cache: History -> Clear recent history -> Ensure cache is checked
+
+Check hosts file:
+```
+Get-Content -Path C:\Windows\System32\drivers\etc\hosts
 ```
