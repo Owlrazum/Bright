@@ -11,7 +11,7 @@ https://wiki.amperka.ru/_media/articles:driver-ch340:ch340ser-windows.zip
 Microsoft Store удобнее \
 [https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe](https://www.microsoft.com/store/productId/9NCVDN91XZQP?ocid=pdpshare)
 
-# Необязательно
+## Необязательно
 
 ### gh, git
 ```
