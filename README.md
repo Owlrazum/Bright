@@ -13,6 +13,8 @@ Microsoft Store удобнее \
 
 https://www.mozilla.org/ru/firefox/download/thanks/
 
+https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
+
 ## Необязательно
 
 ### gh, git
@@ -42,6 +44,7 @@ Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
 127.0.0.1 vseigru.net
 127.0.0.1 igroutka.ru
 127.0.0.1 bluestacks.com
+127.0.0.1 youtube.com
 "
 ```
 Flush DNS:
