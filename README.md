@@ -15,9 +15,8 @@ Microsoft Store удобнее \
 
 # Необязательно
 
-### gh, git, python
+### gh, git
 ```
 winget install --id GitHub.cli
 winget install --id Git.Git -e --source winget
-winget install -e --id Python.Python.3.12
 ```
