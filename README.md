@@ -15,6 +15,8 @@ https://www.mozilla.org/ru/firefox/download/thanks/
 
 https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
 
+https://code.visualstudio.com/download#
+
 ## Необязательно
 
 ### gh, git
