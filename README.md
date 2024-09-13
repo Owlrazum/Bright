@@ -61,3 +61,12 @@ Check hosts file:
 ```
 Get-Content -Path C:\Windows\System32\drivers\etc\hosts
 ```
+
+### Активация окон
+
+```
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms kms8.msguides.com
+slmgr /ato
+```
+
