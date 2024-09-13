@@ -17,6 +17,8 @@ https://discord.com/api/downloads/distributions/app/installers/latest?channel=st
 
 https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
 
+https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe
+
 ## Необязательно
 
 ### gh, git
