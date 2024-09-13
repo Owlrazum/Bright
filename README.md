@@ -19,7 +19,11 @@ https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
 
 https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Windows_64bit.exe
 
+https://www.google.com/intl/ru/chrome/next-steps.html?statcb=1&installdataindex=empty&defaultbrowser=0#
+
 ## Необязательно
+
+Открепить лишнее с панели задач, убрать "ярлык" в названиях "Paint 3D" "Scratch" при отправке с `shell:AppsFolder`
 
 ### gh, git
 ```
@@ -27,6 +31,7 @@ winget install --id GitHub.cli
 winget install --id Git.Git -e --source winget
 ```
 # Настроить
+
 
 ### Закрепить вкладки в Firefox:
 
