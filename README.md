@@ -12,9 +12,10 @@ net user Visitor /delete ; net user ST-00 /add
 
 # 2. Запрет сайтов
 ```
-Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
+Set-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
 127.0.0.1 pornhub.com
 127.0.0.1 roblox.com
+127.0.0.1 www.roblox.com
 127.0.0.1 yandex.ru
 127.0.0.1 vseigru.net
 127.0.0.1 igroutka.ru
