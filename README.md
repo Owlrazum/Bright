@@ -8,6 +8,10 @@ Scratch, Paint3D, Python 3.12 вручную через Microsoft Store
 
 Открепите лишнее с панели задач, уберите "ярлык" в названиях "Paint 3D" и "Scratch" при отправке с `shell:AppsFolder`
 
+```
+net user Visitor /delete ; net user ST-00 /add
+```
+
 # 2. Запрет сайтов
 ```
 Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
