@@ -1,10 +1,5 @@
 # 1. Установить через флешку
 
-Вставьте флешку с программами, откройте PowerShell с `Ctrl+Shift+Enter` и запустите следующий скрипт:
-```
-cd "E:\"; Set-ExecutionPolicy RemoteSigned -Scope Process; .\InstallersRunner.ps1
-```
-
 Открепите лишнее с панели задач, уберите "ярлык" в названиях "Paint 3D" и "Scratch" при отправке с `shell:AppsFolder`
 
 # 2. Запрет сайтов
