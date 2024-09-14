@@ -2,8 +2,6 @@
 
 Scratch, Paint3D, Python 3.12 вручную через Microsoft Store
 
-В VS Code Добавить две галочки при установке
-
 Убрать Дискорд из автозапуска  
 
 Открепите лишнее с панели задач, уберите "ярлык" в названиях "Paint 3D" и "Scratch" при отправке с `shell:AppsFolder`
@@ -23,6 +21,11 @@ Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
 127.0.0.1 bluestacks.com
 127.0.0.1 youtube.com
 "
+```
+
+Check hosts file:
+```
+Get-Content -Path C:\Windows\System32\drivers\etc\hosts
 ```
 
 # 3. Закрепите вкладки в Firefox
@@ -59,10 +62,7 @@ winget install --id Git.Git -e --source winget
 
 ## Дополнительно: Запретить сайты
 
-Check hosts file:
-```
-Get-Content -Path C:\Windows\System32\drivers\etc\hosts
-```
+
 Flush DNS:
 ```
 ipconfig /flushdns
