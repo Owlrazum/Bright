@@ -1,10 +1,8 @@
 # 1. Установить через флешку
 
-Scratch, Paint3D, Python 3.12 вручную через Microsoft Store
+`Scratch`, `Paint3D` -> Microsoft Store -> `shell:AppsFolder`
 
-Убрать Дискорд из автозапуска  
-
-Открепите лишнее с панели задач, уберите "ярлык" в названиях "Paint 3D" и "Scratch" при отправке с `shell:AppsFolder`
+Убрать Дискорд из автозапуска 
 
 ```
 net user Visitor /delete ; net user ST-00 /add
@@ -14,13 +12,16 @@ net user Visitor /delete ; net user ST-00 /add
 ```
 Set-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "
 127.0.0.1 pornhub.com
+127.0.0.1 www.pornhub.com
 127.0.0.1 roblox.com
 127.0.0.1 www.roblox.com
+127.0.0.1 bluestacks.com
+127.0.0.1 www.bluestacks.com
+127.0.0.1 youtube.com
+127.0.0.1 www.youtube.com
 127.0.0.1 yandex.ru
 127.0.0.1 vseigru.net
 127.0.0.1 igroutka.ru
-127.0.0.1 bluestacks.com
-127.0.0.1 youtube.com
 "
 ```
 
